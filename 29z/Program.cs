@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите количество элементов в массиве: ");
-int n = Convert.ToInt32(Console.ReadLine()), j = 0;
+int n = Convert.ToInt32(Console.ReadLine());
 int [] array = new int [n];
 for (int i = 0; i < array.Length; i++)
 {
